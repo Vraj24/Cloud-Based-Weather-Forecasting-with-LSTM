@@ -14,7 +14,6 @@ A scalable, cloud-native weather forecasting system that collects real-time data
 - [Alerting Mechanism](#alerting-mechanism)
 - [Dashboard Demo](#dashboard-demo)
 - [Challenges & Mitigations](#challenges--mitigations)
-- [Contributors](#contributors)
 - [License](#license)
 
 ---
@@ -155,15 +154,6 @@ NOAA API rate limits	Retry logic, date fallback
 Lambda size limits (pandas)	Switched to Lambda layers
 Cost of SageMaker	Spot instances + local prototyping
 Power BI S3 issues	Replaced with Streamlit
-
-👨‍💻 Contributors
-Samir Sanyal – Infrastructure, ingestion, visualization
-
-Vraj Parekh – Lambda pipeline & S3 automation
-
-Rajat Sawant – LSTM model implementation & training
-
-Dev Patel – Alert system, Streamlit dashboard
 
 📄 License
 This project is licensed under the MIT License. See LICENSE for more details.
